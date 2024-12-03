@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c418db74-e0ac-4fe7-a03d-656708892724" name="Changes" comment="" />
+    <list default="true" id="c418db74-e0ac-4fe7-a03d-656708892724" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casts/TryCasts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultresolution/Resolve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defaultresolution/Resolve2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/TrySuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iexamples/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patternmatching/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patternmatching/PossibleCasts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patternmatching/ScopeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patternmatching/TwoNums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,18 +37,47 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2kUKfbkfYuLpBsWnRaOLvIdztWU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Example.executor": "Run",
+    "Application.Resolve.executor": "Run",
+    "Application.ScopeExample.executor": "Run",
+    "Application.TryCasts.executor": "Run",
+    "Application.TrySuit.executor": "Run",
+    "Application.TryTwoNums.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "polymorphism",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TryCasts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casts.TryCasts" />
+      <module name="pexam-1Z0-829" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="casts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TryCasts" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
