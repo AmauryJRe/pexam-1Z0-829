@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c418db74-e0ac-4fe7-a03d-656708892724" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambdapredicates/TryLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/TryStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.TryLambda.executor": "Run",
+    "Application.TryStream.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "lambdas",
     "kotlin-language-version-configured": "true"
   }
