@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c418db74-e0ac-4fe7-a03d-656708892724" name="Changes" comment="Some tips on Collections">
-      <change afterPath="$PROJECT_DIR$/src/comparatordelegation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comparators/ReverseOrdering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c418db74-e0ac-4fe7-a03d-656708892724" name="Changes" comment="Some tips on Collections" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
