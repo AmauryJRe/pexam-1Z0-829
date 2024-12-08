@@ -25,12 +25,12 @@ public class TryStream {
         List<Integer> numbers2 = IntStream.iterate(1, v -> v + 2).limit(500).boxed().toList();
         List<Integer> numbers3 = IntStream.rangeClosed(1, 999).filter(v -> v % 2 != 0).boxed().toList();
         List<Integer> numbers4 = IntStream.range(1, 1000).filter(v -> v % 2 != 0).boxed().toList();
-        List<Integer> numbers5 = IntStream.range(0, 500).map(v->v*2+1).boxed().toList();
+        List<Integer> numbers5 = IntStream.range(0, 500).map(v -> v * 2 + 1).boxed().toList();
 
 //        numbers5.forEach(System.out::println);
 
 
-        Spliterator.OfInt sp1 = IntStream.range(0,100).spliterator();
+        Spliterator.OfInt sp1 = IntStream.range(0, 100).spliterator();
 //        sp1.tryAdvance((int x) -> System.out.println("sp1 before: "+x));
         var sp2 = sp1.trySplit();
 //        sp1.tryAdvance((int x) -> System.out.println("sp1: "+x));
@@ -43,11 +43,18 @@ public class TryStream {
         var sp7 = sp3.trySplit();
         var sp8 = sp4.trySplit();
 
+
         /*
-        * SP2 SP1
-        *  SP4 SP2 SP3 SP1
-        * SP8 SP4 SP6 SP2 SP7 SP3 SP5 SP1
-        * */
+         *  Format of splitting
+         *  Spliterator.OfInt sp1 = IntStream.range(0,100).spliterator()
+         *  sp1 holds all range
+         *  result of splitting sp1, split range holds second half and assigns firs half to the new object
+         *            SP1
+         *        SP2     SP1
+         *    SP4     SP2     SP3     SP1
+         *  SP8 SP4 SP6 SP2 SP7 SP3 SP5 SP1
+         * */
+
 
 //        sp8.forEachRemaining((int r)-> System.out.println("tr1: "+r));
 //        sp4.forEachRemaining((int r)-> System.out.println("tr1: "+r));
@@ -57,23 +64,12 @@ public class TryStream {
 //        sp3.forEachRemaining((int r)-> System.out.println("tr1: "+r));
 //        sp5.forEachRemaining((int r)-> System.out.println("tr1: "+r));
 //        sp1.forEachRemaining((int r)-> System.out.println("tr1: "+r));
-//        sp1.tryAdvance((int x) -> System.out.println("sp1: "+x));
-//        sp2.tryAdvance((int x) -> System.out.println("sp2: "+x));
-//        sp3.tryAdvance((int x) -> System.out.println("sp3: "+x));
-//        sp4.tryAdvance((int x) -> System.out.println("sp4: "+x));
-//        sp5.tryAdvance((int x) -> System.out.println("sp5: "+x));
-//        sp6.tryAdvance((int x) -> System.out.println("sp6: "+x));
-//        sp7.tryAdvance((int x) -> System.out.println("sp7: "+x));
-//        sp8.tryAdvance((int x) -> System.out.println("sp8: "+x));
-//        System.out.println(sp1.estimateSize());
-//        System.out.println(sp2.estimateSize());
-//        System.out.println(sp3.estimateSize());
-//        System.out.println(sp4.estimateSize());
-//        System.out.println(sp5.estimateSize());
-//        System.out.println(sp6.estimateSize());
-//        System.out.println(sp7.estimateSize());
-//        System.out.println(sp8.estimateSize());
 
+//        sp1.tryAdvance((int x) -> System.out.println("sp1: "+x));
+//        System.out.println(sp1.estimateSize());
+
+//        Manual Threads
+        
 //        Thread tr1 = new Thread(()->sp1.forEachRemaining((int r)-> System.out.println("tr1: "+r)));
 //        Thread tr2 = new Thread(()->sp2.forEachRemaining((int r)-> System.out.println("tr2: "+r)));
 //        Thread tr3 = new Thread(()->sp3.forEachRemaining((int r)-> System.out.println("tr3: "+r)));
